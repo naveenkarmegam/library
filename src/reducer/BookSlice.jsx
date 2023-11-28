@@ -1,35 +1,35 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-export const UserSlice = createSlice({
-    name: 'users',
+export const BookSlice = createSlice({
+    name: 'books',
     initialState: {
-        users: [],
+        books: [],
         loading: false,
         error: null,
     },
     reducers: {
-        setUsers: (state, action) => {
-            state.users = action.payload
+        setBook: (state, action) => {
+            state.books = action.payload
             state.loading = false;
             state.error = null;
             return state
         },
-        createUser: (state, action) => {
-            state.users = action.payload
+        createBook: (state, action) => {
+            state.books = action.payload
             state.loading = false;
             state.error = null;
             return state
         },
-        editUser: (state, action) => {
+        editBook: (state, action) => {
             const id = action.payload;
-            state.users = state.users.filter(user => user.id !== id);
+            state.books = state.books.filter(book => book.id !== id);
             state.loading = false;
             state.error = null;
 
         },
-        deleteUser: (state, action) => {
+        deleteBook: (state, action) => {
             const id = action.payload;
-            state.users = state.users.filter(user => user.id !== id);
+            state.books = state.books.filter(book => book.id !== id);
             state.loading = false;
             state.error = null;
         },
@@ -44,4 +44,4 @@ export const UserSlice = createSlice({
     }
 })
 
-export const { setUsers, createUser, deleteUser, editUser,setLoading,setError } = UserSlice.actions
+export const { setBook, createBook, deleteBook, editBook,setLoading,setError } = BookSlice.actions

@@ -12,20 +12,16 @@ const Topbar = () => {
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul className="navbar-nav">
+
                         <li className="nav-item text-dark">
                             <Link className="nav-link" to={'/'}>
                                 <i className="fa-solid fa-users mx-1"></i>
-                                <span> Dashboard</span></Link>
-                        </li>
-                        <li className="nav-item text-dark">
-                            <Link className="nav-link" to={'/user'}>
-                                <i className="fa-solid fa-users mx-1"></i>
-                                <span> User</span></Link>
+                                <span>Books</span></Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to={'/createuser'}>
+                            <Link className="nav-link" to={'/addbook'}>
                                 <i className="fas fa-fw fa-table" />
-                                <span>Create User</span></Link>
+                                <span>Add Books</span></Link>
                         </li>
                        
                         
