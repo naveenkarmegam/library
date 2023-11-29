@@ -96,9 +96,9 @@ const EditBook = () => {
       <div className="container-fluid">
         <form action="" onSubmit={formik.handleSubmit}>
           <div className="row justify-content-center">
-            <h2 className="h3 text-center">Book</h2>
+            <h2 className="h3 text-center text-dark fw-semibold">Book</h2>
             <div className="col-lg-5 mb-3">
-              <label className=" form-label">Title of The Book</label>
+              <label className=" form-label text-black fw-semibold">Title of The Book</label>
               <input
                 type="text"
                 className="form-control"
@@ -113,7 +113,7 @@ const EditBook = () => {
               }
             </div>
             <div className="col-lg-5 mb-3">
-              <label className=" form-label">Language</label>
+              <label className=" form-label text-black fw-semibold">Language</label>
               <input
                 type="language"
                 className="form-control"
@@ -129,7 +129,7 @@ const EditBook = () => {
             </div>
             
             <div className="col-lg-5 mb-3">
-              <label className=" form-label">ISBN</label>
+              <label className=" form-label text-black fw-semibold">ISBN</label>
               <input
                 type="number"
                 className="form-control"
@@ -144,7 +144,7 @@ const EditBook = () => {
               ):null}
             </div>
             <div className="col-lg-5 mb-3">
-              <label className=" form-label">Date of Publication</label>
+              <label className=" form-label text-black fw-semibold">Date of Publication</label>
               <input
                 type="number"
                 className="form-control"
@@ -159,9 +159,9 @@ const EditBook = () => {
             </div>
             </div>
             <div className="row justify-content-center mt-4">
-            <h2 className="h3 text-center">Author</h2>
+            <h2 className="h3 text-center text-dark fw-semibold">Author</h2>
             <div className="col-lg-5 mb-3">
-                  <label className="form-label">Name</label>
+                  <label className="form-label text-black fw-semibold">Name</label>
                   <input
                     type="text"
                     className="form-control"
@@ -176,7 +176,7 @@ const EditBook = () => {
                 </div>
       
                 <div className="col-lg-5 mb-3">
-                  <label className="form-label">Date of Birth</label>
+                  <label className="form-label text-black fw-semibold">Date of Birth</label>
                   <input
                     type="date"
                     className="form-control"
@@ -191,7 +191,7 @@ const EditBook = () => {
                 </div>
       
                 <div className="col-lg-5 mb-2">
-                  <label className="form-label">Short bio</label>
+                  <label className="form-label text-black fw-semibold">Short bio</label>
                   <textarea
                     type="text"
                     className="form-control"

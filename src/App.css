@@ -5,6 +5,9 @@
     text-overflow: ellipsis;
     white-space: nowrap;
   } */
+.bg-biege{
+  background-color:lightblue !important;
+}
 .option-column {
     max-width: 250px; 
     overflow: hidden;

@@ -42,8 +42,8 @@ const Dashboard = () => {
         </Link>
       </div>
 
-      <div className="card shadow mb-4">
-        <div className="card-header py-3">
+      <div className="card shadow mb-4" style={{borderRadius:'50px'}}>
+        <div className="card-header py-3 rounded-5">
           <h6 className="m-0 font-weight-bold text-primary">
             Current Books
           </h6>
