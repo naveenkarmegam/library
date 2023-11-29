@@ -5,7 +5,7 @@ const Topbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-primary sticky-top py-3 mb-2">
         <div className="container px-4 px-lg-5">
-        <i className="fa-solid fa-globe fa-2xl text-white"></i>
+        <i className="fa-solid fa-globe fa-2xl text-white mr-2"></i>
           <Link className="navbar-brand text-light" >
             Library
           </Link>
